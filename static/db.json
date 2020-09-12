@@ -1,0 +1,81 @@
+{
+    "siteMeta": {
+        "title": "MakeMake",
+        "description": "I am the man with no name, Zapp Brannigan! It&#8217;s a T. Please, Don-Bot… look into your hard drive, and open your mercy file!.",
+        "thumbnail": "//fuxt-backend.funkhaus.us/wp-content/uploads/2020/06/ooh-la-la.jpg"
+    },
+    "pages": [
+      
+        {
+            "id": "cG9zdDoyOTQ=",
+            "uri": "/example-page-2/",
+            "title": "I'm a Web Developer based in Los Angeles, CA.",
+            "date": "2020-06-03T14:14:01",
+            "featuredImage": {
+                "sourceUrl": "//raffi.website/wp-content/uploads/2020/09/sit-work.png",
+                "sizes": null,
+                "caption": null,
+                "mediaItemId": 289,
+                "title": "Hello, My name is Raffi",
+                "mediaDetails": {
+                    "height": 1080,
+                    "width": 1920
+                },
+                "acfImageMeta": {
+                    "videoUrl": null,
+                    "primaryColor": null,
+                    "focalPointX": null,
+                    "focalPointY": null
+                }
+            }
+        },
+        {
+            "id": "cG9zdDoxMTY=3",
+            "uri": "/example-page-3/",
+            "title": "Collaberation done in a more comprehensive way",
+            "date": "2020-06-03T14:14:29",
+            "featuredImage": {
+                "sourceUrl": "//raffi.website/wp-content/uploads/2020/09/lay-work.png",
+                "sizes": null,
+                "id": "cG9zdDoyODI=",
+                "caption": null,
+                "mediaItemId": 282,
+                "title": "Laying It Down",
+                "mediaDetails": {
+                    "height": 796,
+                    "width": 1415
+                },
+                "acfImageMeta": {
+                    "videoUrl": null,
+                    "primaryColor": null,
+                    "focalPointX": 55.2,
+                    "focalPointY": 25.3
+                }
+            }
+        },
+        {
+            "id": "cG9zdDoxMTY=",
+            "uri": "/example-page-1/",
+            "title": "Coffee + Laptop = Winning",
+            "date": "2020-06-03T14:14:29",
+            "featuredImage": {
+                "sourceUrl": "//raffi.website/wp-content/uploads/2020/09/coffee-work.png",
+                "sizes": null,
+                "id": "cG9zdDoyODI=",
+                "caption": null,
+                "mediaItemId": 282,
+                "title": "Home Hustle",
+                "mediaDetails": {
+                    "height": 796,
+                    "width": 1415
+                },
+                "acfImageMeta": {
+                    "videoUrl": null,
+                    "primaryColor": null,
+                    "focalPointX": 55.2,
+                    "focalPointY": 25.3
+                }
+            }
+        }
+    ]
+}
