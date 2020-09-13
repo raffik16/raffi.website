@@ -2,6 +2,10 @@
   "name": "raffi-website",
   "version": "1.0.0",
   "private": true,
+  "type": "static",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -11,6 +15,7 @@
   "dependencies": {
     "nuxt": "^2.14.0",
     "nuxt-vue-material": "^1.2.0",
+    "vercel": "^20.1.0",
     "vue-js-modal": "^2.0.0-rc.6"
   },
   "devDependencies": {
