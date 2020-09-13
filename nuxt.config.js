@@ -69,4 +69,7 @@ export default {
   build: {
     publicPath: 'dist/',
   },
+  generate: {
+    dir: 'public'
+  },
 }
