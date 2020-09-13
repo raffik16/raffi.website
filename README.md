@@ -1,4 +1,4 @@
-# Development by Raffi Keklikian - funkhausR2
+# Development by Raffi Keklikian
 
 ## Build Setup
 
