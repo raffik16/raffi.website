@@ -1,5 +1,5 @@
 <template>
- <div class="container">
+ <div class="container portfolio-section" id="portfolioSection">
 
    <h1>
      My Art

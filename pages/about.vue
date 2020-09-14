@@ -17,9 +17,10 @@
         </p>
     </div>
 
+    <footer-cmp />
+
     <footer class="footer-wrap">
-        <footer-cmp />
-      <!-- Import hero footer -->
+      <!-- Import fixed footer -->
       <fixed-footer />
     </footer>
   </div>

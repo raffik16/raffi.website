@@ -5,16 +5,17 @@
                 <nuxt-link to="/" class="navbar-brand">
                     <h2>RK</h2>
                 </nuxt-link>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
+                <button @click="myFilter" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo" aria-controls="navbarTogglerDemo" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div id="navbarTogglerDemo" class="collapse navbar-collapse">
+                <div id="navbarTogglerDemo" class="collapse navbar-collapse" :class="{ 'show' : isActive}">
                     <ul class="navbar-nav ml-auto">
                         <!-- <li class="nav-item active">
                             <a href="#home" class="nav-link">Home</a>
-                        </li> -->
-                        <li class="nav-item">
-                            <a href="#portfolio" class="nav-link">Portfolio</a>
+                        </li> --> 
+                        <li
+                           class="nav-item">
+                            <nuxt-link to="/#portfolioSection" class="nav-link portfolio-li" :prefetch="false">Portfolio</nuxt-link>
                         </li>
                         <li class="nav-item">
                           <nuxt-link to="/about" class="nav-link" :prefetch="false">About</nuxt-link>
@@ -34,49 +35,30 @@ export default {
   name: "hero-header",
   data: () => {
     return {
-    finishingHoverOver: false, 
-    editorsHoverOver: false, 
+      isActive: false, 
     }
   },
+  methods: {
+    scrollToElement() {
+      // var element = document.getElementById("portfolioSection");
+      // var top = element.offsetTop;
+      // window.scrollTo(0, top);
+    },
+    myFilter: function() {
+      this.isActive = !this.isActive;
+      // some code to filter users
+    }
+  }
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
 .header-liner {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
   color: #fff;
-}
-
-.logo-wrap {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.logo {
-  max-width: 40px;
-}
-
-.exile {
-  font-family: 'Bitter', serif;
-  text-transform: uppercase;
-  letter-spacing: 5px;
-  margin-left: 20px;
-}
-
-.bar {
-  background: #fff;
-  height: 1px;
-  width: 90px;
-  margin: 0 25px;
-  position: absolute;
-  right: 28px;
-  top: 60px;
-  transition: all .3s ease-in-out 0s;
 }
 
 .menu {
@@ -88,60 +70,40 @@ export default {
   font-size: 18px;
 }
 
-.editors-item {
-  position: relative;
-  transition: left .3s ease-in-out 0s;
-  left: 0;
+header {
+    width: 100%;
+    background: none;
+
+    li {
+      text-align: right;
+      text-shadow: 1px 0 1px #000;
+      font-family: 'lotasemibold';
+      font-size: 18px;
+    }
 }
 
-span.editors-item {
-  margin-right: 15px;
+@media (max-width: 768px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+      padding-right: 0;
+  }
+
+  .navbar {
+      padding: 8px 17px;
+      margin: 0;
+  }
+
+  .navbar .navbar-toggler {
+      background: none;
+  }
+  
 }
 
-
-@media(min-width:768px) {
-
-  .bar {
-    background: #fff;
-    height: 1px;
-    width: 100px;
-    margin: 0 25px;
-    position: absolute;
-    right: 90px;
-    top: auto;
-    transition: all .3s ease-in-out 0s;
-  }
-
-  span.editors-item {
-      margin-right: 150px;
-  }
-
-  .is-hovering-editors .editors-item {
-    transition: left .3s ease-in-out 0s;
-    left: -20px;
-  }
-
-  .is-hovering-editors .bar {
-    right: 90px;
-    width: 110px;
-  }
-
-  .finishing-item {
-    position: relative;
-    transition: right .3s ease-in-out 0s;
-    right: 0;
-  }
-
-  .is-hovering-finishing .bar {
-    right: 80px;
-    width: 110px;
-  }
-
-  .is-hovering-finishing .finishing-item {
-    transition: right .3s ease-in-out 0s;
-    right: -20px;
-  }
-
+nav.navbar.navbar-expand-lg.navbar-dark {
+    background: none;
+    position: fixed;
+    z-index: 50;
+    left: 0;
+    top: 0;
+    width: 100%;
 }
-
 </style>

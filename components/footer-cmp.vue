@@ -1,7 +1,7 @@
 <template>
   <div class="footer-content">
     <div class="container">
-      Made with Love &amp; VueJs
+      Made w/ &lt;3 &amp; NuxtJS
     </div>
   </div>
 </template>
