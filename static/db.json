@@ -12,7 +12,7 @@
             "title": "I'm a Web Developer based in Los Angeles, CA.",
             "date": "2020-06-03T14:14:01",
             "featuredImage": {
-                "sourceUrl": "~/static/images/TDV_M82_04.png",
+                "sourceUrl": "//raffi.website/static/images/TDV_M82_04.png",
                 "sizes": null,
                 "caption": null,
                 "mediaItemId": 289,
@@ -35,7 +35,7 @@
             "title": "Collaberation done in a more comprehensive way",
             "date": "2020-06-03T14:14:29",
             "featuredImage": {
-                "sourceUrl": "~/static/images/TDV_M82_02.png",
+                "sourceUrl": "//raffi.website/static/images/TDV_M82_02.png",
                 "sizes": null,
                 "id": "cG9zdDoyODI=",
                 "caption": null,
@@ -59,7 +59,7 @@
             "title": "Coffee + Laptop = Winning",
             "date": "2020-06-03T14:14:29",
             "featuredImage": {
-                "sourceUrl": "~/static/images/TDV_M82_010.png",
+                "sourceUrl": "//raffi.website/static/images/TDV_M82_010.png",
                 "sizes": null,
                 "id": "cG9zdDoyODI=",
                 "caption": null,
