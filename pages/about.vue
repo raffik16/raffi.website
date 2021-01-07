@@ -1,20 +1,18 @@
 <template>
   <!-- Main Parent Index Div -->
   <div class="main-parent">
-
-
     <header class="header-wrap">
       <!-- Import hero header -->
       <hero-header />
     </header>
-    
-    <div class="centering-block">
 
-        <img src="~/static/images/25.gif" alt="">
+    <div class="">
+      <p>
+        Hello, My Name Is Raffi. I'm A Web Developer Based In Los Angeles, CA.
+      </p>
 
-        <p>
-            Hello, My Name Is Raffi. I'm A Web Developer Based In Los Angeles, CA. 
-        </p>
+      <img src="~/static/images/25.gif" alt="" />
+      <img src="~/static/images/raffi.jpg" alt="" />
     </div>
 
     <footer-cmp />
@@ -27,31 +25,29 @@
 </template>
 
 <script>
-
-
 export default {
   head() {
     return {
       title: "my website", // Grab title from API
       meta: [
         {
-          hid: 'description', //  Must use hid
-          name: 'description', // Type of meta property
+          hid: "description", //  Must use hid
+          name: "description", // Type of meta property
           content: "About Raffi Keklikian" // Insert description from API
         }
       ]
-    }
-  },
-}
+    };
+  }
+};
 </script>
 
 <style lang="scss" scoped>
 .centering-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 .header-wrap {
   display: flex;
@@ -78,8 +74,8 @@ export default {
 }
 
 p {
-     font-family: 'lotasemibold';
-     font-size: 30px;
-     line-height: 1;
+  font-family: "lotasemibold";
+  font-size: 30px;
+  line-height: 1;
 }
 </style>

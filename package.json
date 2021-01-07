@@ -6,7 +6,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "nuxt": "^2.14.0",
@@ -15,8 +17,15 @@
     "vue-js-modal": "^2.0.0-rc.6"
   },
   "devDependencies": {
+    "@babel/core": "^7.11.6",
     "@nuxtjs/storybook": "^2.2.0",
+    "@storybook/addon-actions": "^6.0.21",
+    "@storybook/addon-essentials": "^6.0.21",
+    "@storybook/addon-links": "^6.0.21",
+    "@storybook/vue": "^6.0.21",
+    "babel-loader": "^8.1.0",
     "node-sass": "^4.14.1",
+    "react-is": "^16.13.1",
     "sass-loader": "^10.0.2"
   }
 }

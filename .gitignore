@@ -9,7 +9,6 @@ yarn-error.log*
 
 .nuxt-storybook
 storybook-static
-**/*.stories.js
 
 # Runtime data
 pids

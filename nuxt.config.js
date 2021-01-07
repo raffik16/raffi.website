@@ -69,6 +69,9 @@ export default {
   build: {
     // publicPath: 'dist/',
   },
+  storybook: {
+    // Options
+  }
   // generate: {
   //   dir: 'public'
   // },
