@@ -1,7 +1,7 @@
 <template>
     <!-- Toggle class based on mouseenter/mouseleave/click -->
     <div class="footer-liner" :class="{'ig-hovering' : hoverOverIg, 'contact-hovering' : hoverOverContact }">
-        <a href="https://instagram.com/extraranchraffi"
+        <a href="https://instagram.com/ranchedruffles"
               target="_blank"
               class="ig-a"
               @click="hoverOverIg = true"

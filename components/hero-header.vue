@@ -15,7 +15,7 @@
                         </li> --> 
                         <li
                            class="nav-item">
-                            <nuxt-link to="/#portfolioSection" class="nav-link portfolio-li" :prefetch="false">Portfolio</nuxt-link>
+                            <nuxt-link to="/#portfolioSection" class="nav-link portfolio-li" :prefetch="false">Home</nuxt-link>
                         </li>
                         <li class="nav-item">
                           <nuxt-link to="/about" class="nav-link" :prefetch="false">About</nuxt-link>

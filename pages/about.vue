@@ -8,19 +8,19 @@
 
     <div class="container meta">
 
-      <img src="~/static/images/25.gif" alt="" />
+      <img src="~/static/images/25.gif" class="img" />
       <div>
         <p>
           Howdy! Here's some fun about me; I LOVE making the internet a safer and more useable place. Experiencing a glitch free web page is a BIG WIN. I can find a glitch in just about every website. I've been doing this for 11 years.
         </p>
         <p>
-          Finding a solution for the glitch would be the next step.
+          Finding a solution for the glitch is the next step. At times the approach can be extremely simple or extremely complicated.
         </p>
         <p>
           My favorite sport is baseball as its one of the most strategic major league sports. It takes 100% commitment from each player to win a ball game. Similarly to winning a product launch. It takes 100% commitment from everyone.
         </p>
         <p>
-          Being outdoors is another one of my favorite hobbies. It's Another thing that requires granular nitty-gritty lifestyle in order to Succeed.
+          Being outdoors is another one of my favorite hobbies. It's Another thing that requires granular a nitty-gritty lifestyle in order to Succeed.
         </p>
         <p>
           There are a lot of real world applications that we can take notes from and apply them to our art.
@@ -99,5 +99,17 @@ p {
 .meta {
   display: flex;
   margin-bottom: 45px;
+
+  @media (max-width:1024px){
+    flex-direction: column;
+  }
 }
+
+.img {
+   @media (max-width:1024px){
+    margin-bottom: 30px;
+  }
+}
+
+
 </style>
