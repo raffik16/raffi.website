@@ -71,8 +71,8 @@ export default {
   },
   storybook: {
     // Options
-  }
-  // generate: {
-  //   dir: 'public'
-  // },
+  },
+  generate: {
+    dir: 'public'
+  },
 }
