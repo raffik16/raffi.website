@@ -12,7 +12,7 @@
             "title": "I'm a Web Developer based in Los Angeles, CA.",
             "date": "2020-06-03T14:14:01",
             "featuredImage": {
-                "sourceUrl": "https://api.zeit.co/now/files/6c28ff37a7b1c3a69cd4d1b1667fcb7439d5eae55fda4e56bc10fa33b6635ea8/TDV_M82_04.png",
+                "sourceUrl": "//api.zeit.co/now/files/6c28ff37a7b1c3a69cd4d1b1667fcb7439d5eae55fda4e56bc10fa33b6635ea8/TDV_M82_04.png",
                 "sizes": null,
                 "caption": null,
                 "mediaItemId": 289,
@@ -35,7 +35,7 @@
             "title": "Collaberation done in a more comprehensive way",
             "date": "2020-06-03T14:14:29",
             "featuredImage": {
-                "sourceUrl": "https://api.zeit.co/now/files/4f4f1eaa2e92c1ef37d856d2bc3582fef180feada1c2265259339e3303cdb89e/TDV_M82_02.png",
+                "sourceUrl": "//api.zeit.co/now/files/4f4f1eaa2e92c1ef37d856d2bc3582fef180feada1c2265259339e3303cdb89e/TDV_M82_02.png",
                 "sizes": null,
                 "id": "cG9zdDoyODI=",
                 "caption": null,
@@ -59,7 +59,7 @@
             "title": "Coffee + Laptop = Winning",
             "date": "2020-06-03T14:14:29",
             "featuredImage": {
-                "sourceUrl": "https://api.zeit.co/now/files/19975a34a9d00f392d1e2cc32d6d249d5b826df6e46bf2cf3e7eb826c423ea13/TDV_M82_010.png",
+                "sourceUrl": "//api.zeit.co/now/files/19975a34a9d00f392d1e2cc32d6d249d5b826df6e46bf2cf3e7eb826c423ea13/TDV_M82_010.png",
                 "sizes": null,
                 "id": "cG9zdDoyODI=",
                 "caption": null,
