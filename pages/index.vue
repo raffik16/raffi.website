@@ -10,7 +10,7 @@
     
     <!-- Import hero images + titles -->
     <hero />
-    <posts />
+    <!-- <posts /> -->
 
     <footer-cmp />
 

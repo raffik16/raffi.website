@@ -14,10 +14,7 @@
           class="slider-parent">
 
           <!-- Hero Title wrap with hover state -->
-          <div class="hero-title-wrap"
-              @mouseenter="hoverOver = true"
-              @mouseleave="hoverOver = false"
-              @click="hoverOver = true">
+          <div class="hero-title-wrap">
 
             <!-- Hero title Render -->
             <div class="hero-header">
@@ -29,10 +26,6 @@
               <span v-html="currentTitle"></span>
             </div>
 
-            <!-- Hero Play button Render -->
-            <div class="play">
-              <span>&#x25B6;</span> Play
-            </div>
           </div>
 
           <!-- Image Render -->
@@ -88,7 +81,6 @@ export default {
       subTitles: [], // Set subTitles array to be updated with api.
       currentNumber: 0, // Default currentNumber = 0
       timer: 0, // Default timer = 0
-      hoverOver: false, // Default hoverOver = false
     }
   },
   
@@ -151,24 +143,6 @@ export default {
   z-index: 40;
 }
 
-.hero-center .play {
-  opacity: 0;
-  transition: opacity .25s ease-in-out 0s;
-  font-family: 'lotasemibold';
-  text-transform: uppercase;
-  font-size: 18px;
-  text-shadow: 1px 2px 1px #000;
-}
-
-.hero-center.is-hovering .play {
-  opacity: 1;
-  transition: opacity .25s ease-in-out 0s;
-}
-
-.play span {
-  margin-right: 10px;
-}
-
 .hero-title-wrap {
     position: absolute;
     text-align: left;
@@ -198,11 +172,6 @@ export default {
   text-shadow: 1px 2px 1px #000;
 }
 
-.is-hovering .hero-header {
-  transition: top .25s ease-in-out 0s;
-  top: -7px;
-}
-
 .hero-sub-header {
   font-size: 28px;
   transition: top .25s ease 0s;
@@ -211,11 +180,6 @@ export default {
   padding: 22px 0 22px;
   text-transform: capitalize;
   text-shadow: 1px 2px 1px #000;
-}
-
-.is-hovering .hero-sub-header {
-  transition: top .25s ease 0s;
-  top: -7px;
 }
 
 img {
