@@ -1,13 +1,11 @@
 <template>
   <!-- Main Parent Index Div -->
   <div class="main-parent">
-
-
     <header class="header-wrap">
       <!-- Import hero header -->
       <hero-header />
     </header>
-    
+
     <!-- Import hero images + titles -->
     <hero />
     <!-- <posts /> -->
@@ -22,30 +20,23 @@
 </template>
 
 <script>
-
-
 export default {
   head() {
     return {
       title: "my website", // Grab title from API
       meta: [
         {
-          hid: 'description', //  Must use hid
-          name: 'description', // Type of meta property
+          hid: "description", //  Must use hid
+          name: "description", // Type of meta property
           content: "Welcome to raffi.website" // Insert description from API
         }
       ]
-    }
-  },
-  data: () => {
-    return {
-      db : [], // Set top level array
-    }
-  },
-}
+    };
+  }
+};
 </script>
 
- <style scoped>
+<style scoped>
 .header-wrap {
   display: flex;
   flex-direction: row;
