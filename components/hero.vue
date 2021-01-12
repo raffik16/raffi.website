@@ -136,7 +136,6 @@ export default {
 .slide-leave-to .hero-title-wrap {
   transition: top 3s cubic-bezier(0.76, 0, 0.5, 1);
   top: 150%;
-  /* z-index: 0; */
 }
 
 .slide-enter-to .hero-title-wrap {
@@ -146,7 +145,7 @@ export default {
 .hero-title-wrap {
     position: absolute;
     text-align: left;
-    color: #fff;
+    color: rgba(0,0,0,.75);
     top: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -169,7 +168,6 @@ export default {
   top: 0;
   position: relative;
   text-transform: capitalize;
-  text-shadow: 1px 2px 1px #000;
 }
 
 .hero-sub-header {
@@ -179,7 +177,6 @@ export default {
   position: relative;
   padding: 22px 0 22px;
   text-transform: capitalize;
-  text-shadow: 1px 2px 1px #000;
 }
 
 img {
